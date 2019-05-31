@@ -2,8 +2,6 @@
 
 #include <stdlib.h>
 
-#define STRING_LENGTH 32
-
 typedef struct _string {
   char *storage;
   size_t index;

@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <string.h>
 
+#define STRING_LENGTH 32
+
 string *new_string() {
   string *s = malloc(sizeof(string));
   s->storage = calloc(STRING_LENGTH, sizeof(char));
@@ -28,7 +30,6 @@ void append_chars(string *s, const char *string) {
   assert(s->index + len < STRING_LENGTH);
   memcpy(s->storage + s->index, string, len);
   s->index += len;
-  printf("chars appended: %s\n", string);
 }
 
 void append_string(string *s, const string *string) {
