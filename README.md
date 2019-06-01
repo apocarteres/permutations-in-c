@@ -28,4 +28,4 @@ answer is 2 cause: 2+3 and 3+2
 n = 5, a=2,b=1,c=3
 answer is 13 cause: 11111, 1112, 1121, 1211, 2111, 221, 212, 122, 23, 32, 113, 131, 311
 
-Run demo online: http://cpp.sh/6fqjc
+Run demo online: http://cpp.sh/3ru724
