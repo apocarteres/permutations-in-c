@@ -3,10 +3,10 @@
 Simple permutaion puzle is defined like:
 
 - Given integer N which is greater than zero
-- Given three numbers A,B,C which are in range [>0 and <10]
+- Given three numbers A,B,C each in range [>0 and <10]
 
 The task is to find out how many possible ways to express given N with sum of A,B and C and print out
-these valid permutations.
+these permutations.
 
 Examples:
 
